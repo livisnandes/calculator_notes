@@ -3,15 +3,15 @@ def calcular_media(notas):
 
 def calcular_conceito(media):
     if 9 <= media <= 10:
-        return 'A'
+        return 'Ótimo'
     elif 7.5 <= media < 9:
-        return 'B'
+        return 'Bom'
     elif 6 <= media < 7.5:
-        return 'C'
+        return 'Na média'
     elif 4 <= media < 6:
-        return 'D'
+        return 'Baixa'
     else:
-        return 'F'
+        return 'Horrível! Trate de melhorar isso!'
 
 def main():
     try:
